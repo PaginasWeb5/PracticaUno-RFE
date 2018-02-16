@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body id="body">
+    <div id="olah" align="center">
+        <div class="header" align="center">
+            <ul class="nav">
+                <li id="li1">
+                    <a href="quees.html#quees">¿Qué es html?</a>
+                </li>
+
+                <li>
+                    <a href="etiquetas.html#etiquetas">Etiquetas</a>
+                </li>
+
+                <li>
+                    <a href="css.html#css">CSS</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <section>
+        <div id="olah2">
+            <div class="slider" align="center">
+                <ul>
+                    <li>
+                        <img src="C:\Users\ricar\Desktop\ricardo\slide1.jpg" alt="Slide 1" />
+                    </li>
+                    <li>
+                        <img src="C:\Users\ricar\Desktop\ricardo\slide2.jpg" alt="Slide 2" />
+                    </li>
+                    <li>
+                        <img src="C:\Users\ricar\Desktop\ricardo\slide3.jpg" alt="slide 3">
+                    </li>
+                    <li>
+                        <img src="C:\Users\ricar\Desktop\ricardo\slide4.jpg" alt="slide 4">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
+<style type="text/css">
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .header {
+        justify-content: center;
+        width: 100%;
+        background-color: crimson;
+        height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #li1 {
+        margin-left: 30%;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    #olah {
+        width: 100%;
+    }
+
+    #olah2 {
+        float: left;
+        margin-left: 20%;
+    }
+
+    .nav li a {
+        background-color: crimson;
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        float: left;
+    }
+
+    .nav>li {
+        float: left;
+    }
+
+    .nav li a:hover {
+        background-color: #434343;
+    }
+
+    #body {
+        background:linear-gradient(darkred,red,crimson,orangered,orangered,orange);
+        width: 100%;
+    }
+
+    .slider {
+        width: 720px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .slider ul {
+        padding: 0;
+        display: flex;
+        width: 400%;
+        animation: movimiento 20s infinite alternate;
+        animation-timing-function: ease-in;
+    }
+
+    .slider li {
+        width: 100%;
+        list-style: none;
+    }
+
+    .slider img {
+        width: 100%;
+    }
+
+    #color_link {
+        color: antiquewhite;
+        font-size: 25px;
+    }
+
+    @keyframes movimiento {
+        0% {
+            margin-left: 0;
+        }
+        20% {
+            margin-left: 0;
+        }
+        25% {
+            margin-left: -100%;
+        }
+        45% {
+            margin-left: -100%;
+        }
+
+        50% {
+            margin-left: -200%;
+        }
+        70% {
+            margin-left: -200%;
+        }
+        75% {
+            margin-left: -300%;
+        }
+        100% {
+            margin-left: -300%;
+        }
+    }
+</style>
+    </html>
